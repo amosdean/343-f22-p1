@@ -192,6 +192,7 @@ article p {
 }
 
 article table {
+	margin: 5px;
 	float: left;
 	background-color: #DEB887;
 }
