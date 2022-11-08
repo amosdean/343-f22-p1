@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Report</title>
+    <link rel="icon" href="images/mug3.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        body {
+            margin: 20px;
+            width: fit-content;
+            margin-top: 20px;
+            border: none
+        }
+
+        main {
+            border: none;
+            margin-left: 20px
+        }
+
+        ol>li {
+            margin: 10px;
+            font-size: large;
+        }
+
+        /* img {
+            border: rgb(255, 255, 255) solid 1px;
+        } */
+    </style>
+</head>
+
+
+<body>
+    <main>
+        <ol>
+            <li>The sites contains 6 web pages: index, health, history, mental, contact, recipes</li>
+            <li> Each site has a favicon: </li>
+            <img height="5%" src="images/mug3.png">
+
+            <li> Each webpage has a header as follows:</li>
+            <img src="images/header.png" alt="Coffee Cup" height=80>
+
+            <li> Each webpage has a navigation bar as follows:</li>
+            <nav id="nav_menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="current" href="recipes.html">Recipes</a></li>
+
+                    <li id="dropdown"><a>Benefits</a>
+                        <ul>
+                            <li><a href="health.html">Health Benefits</a></li>
+                            <li><a href="mental.html">Mental Benefits</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <li>Each site has distinct differences in layout for small vs large screens</li>
+            <img src="images/largeScreen.png" alt="Large Screen" height=400>
+            <img src="images/narrowScreen.png" alt="Small Screen" height=400>
+
+            <li>Site contains images as shown above</li>
+            <li>Site passes Nu Validator and Wave Web Accessibility Evaluator</li>
+            <li>Site uses several different font faces as shown above</li>
+            <li>Site uses form and form validation:</li>
+            <img src="images/form.png" alt="Form" height=400>
+            <li>Site links to several external sources, one shown here:</li>
+            <img src="images/source.png" alt="External Link">
+            <li>Website is available <a href="">here</a></li>
+        </ol>
+    </main>
+</body>
+
+</html>
