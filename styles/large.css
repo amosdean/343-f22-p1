@@ -192,9 +192,10 @@ article p {
 }
 
 article table {
+	border-spacing: 0;
 	margin: 5px;
 	float: left;
-	background-color: #f6f3ef;
+	background-color: #ffe8ca;
 }
 
 article th,
@@ -204,8 +205,8 @@ td {
 	padding: .75em;
 }
 
-article th {
-	font-size: 120%;
+article h2 {
+	/* font-size: 120%; */
 	/* background-color: #DEB887; */
 }
 
