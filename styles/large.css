@@ -192,10 +192,12 @@ article p {
 }
 
 article table {
+	border-collapse: collapse;
 	border-spacing: 0;
 	margin: 5px;
 	float: left;
 	background-color: #ffe8ca;
+
 }
 
 article th,
@@ -205,9 +207,11 @@ td {
 	padding: .75em;
 }
 
-article h2 {
-	/* font-size: 120%; */
-	/* background-color: #DEB887; */
+
+/* center  */
+.title {
+	text-align: center;
+
 }
 
 #contact form {
@@ -221,6 +225,9 @@ article h2 {
 }
 
 #contact form textarea {
+	height: 200px;
+	max-width: 185px;
+	min-width: 140px;
 	margin-bottom: 5px;
 }
 

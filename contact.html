@@ -40,17 +40,17 @@
 			<article id="contact">
 				<form id="col">
 					<label for="name"><strong>Name:</strong></label><br>
-					<input type="text" id="name" name="name" placeholder="Your name..."><br>
+					<input required="true" type="text" id="name" name="name" placeholder="Your name..."><br>
 					<label for="email"><strong>Email:</strong></label><br>
-					<input type="email" id="email" name="email" placeholder="Your email..."><br>
+					<input required="true" type="email" id="email" name="email" placeholder="Your email..."><br>
 					<label for="subject"><strong>Subject</strong></label><br>
-					<input type="text" id="subject" name="subject" placeholder="Subject..."><br>
+					<input required="true" type="text" id="subject" name="subject" placeholder="Subject..."><br>
 					<label for="message"><strong>Message:</strong></label><br>
-					<textarea id="message" name="message" placeholder="Your message..."
-						style="height:200px; max-width: 185px;"></textarea><br>
-					<input id="submit" type="submit" value="Submit"><a href=""></a>
+					<textarea required="true" id="message" name="message" placeholder="Your message..."></textarea><br>
+					<input id="submit" type="submit" value="Submit">
 				</form>
-				<img id="noborder" src="images/cute.png" alt="cartoon squirrell drinking coffee" height=250>
+				<img style="resize:none;" id="noborder" src="images/cute.png" alt="cartoon squirrell drinking coffee"
+					height=250>
 			</article>
 
 		</div>
